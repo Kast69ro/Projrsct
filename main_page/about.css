@@ -1,0 +1,89 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); */
+
+* {
+    margin: 0%
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+nav div {
+    width: 60%;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head {
+    background-color: #F1F5F8;
+    padding: 100px 30px;
+
+
+}
+
+.head h1 {
+    margin-left: 7%;
+    font-size: 25px;
+    color: #235275;
+    font-size: 25px;
+}
+section a{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 5px 10px 10px 1px grey;
+    border-radius: 10px;
+}
+a img{
+    width: 310px;
+    height: 200px;
+    border-radius: 10px;
+}
+.left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.right{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.container{
+    padding: 20px;
+    width: 25%;
+    /* background-color: #235275; */
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.divNameCategory{
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.divPriceBtn{
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
