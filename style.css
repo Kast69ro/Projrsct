@@ -1,6 +1,137 @@
-.boxS{
-  border: 1px solid grey;
+*{
+  margin: 0%
 }
-.true{
-  text-decoration: line-through;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+header {
+  position: relative;
+  /* font-family: Dancing Script; */
+  background-image: url("./img/Rectangle 37.png");
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.139);
+  z-index: 1;
+}
+
+header * {
+  position: relative;
+  z-index: 2;
+}
+
+
+a{
+  text-decoration: none;
+  font-size: 20px;
+  color: whitesmoke;
+}
+nav div{
+  width: 60%;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-around;
+}
+nav{
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1{
+  font-size: 96px;
+  font-weight: 700;
+  font-family: Dancing Script ;
+}
+header h3{
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+header button{
+  font-size: 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: 600;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+header div:last-child{
+  display: flex;
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 10%;
+  gap: 50px;
+  flex-direction: column;
+  text-align: center;
+  align-items: start;
+}
+section{
+  margin-top: 100px;
+}
+section h3{
+  font-weight: 900;
+  font-size: 40px;
+  color: #BA5D2C;
+  
+}
+section h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+section:nth-child(2){
+  font-family: "Montserrat", sans-serif;
+}
+.card{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.card img{
+  width: 387px;
+  height: 200px;
+}
+.card h4{
+  color: #00000061;
+  font-size: 18px;
+}
+.card h5{
+  /* color: #00000061; */
+  font-size: 20px;
+  font-weight: 700;
+}
+.bigCard{
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  justify-content: space-around;
+}
+.btn{
+  margin-left: 43%;
+  margin-top: 5%;
+  background-color: #BA5D2C;
+  color: #fff;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 5px;
+}
+
+

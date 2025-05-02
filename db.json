@@ -68,7 +68,7 @@
       "name": "High-Back Bench",
       "category": "Ikea",
       "price":"9.99",
-      "avatar":"."
+      "avatar":"./img/Rectangle 41.png"
     },
     {
       "id": "7h12f",
@@ -85,5 +85,13 @@
       "avatar":"."
     }
 
+  ],
+  "Featured":[
+    {
+      "name": "High-Back Bench",
+      "price":"9.99",
+      "avatar":"./img/comfy.svg"
+
+    }
   ]
 }
