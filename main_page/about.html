@@ -13,7 +13,7 @@
         <nav>
             <div>
                 <p><a href="../index.html">Home</a></p>
-                <p><a href="">Products</a></p>
+                <p><a href="./about.html">Products</a></p>
                 <p><a href="">About</a></p>
                 <img src="../img/comfy (1).svg" alt="">
             </div>
@@ -28,16 +28,21 @@
     <section>
 
         <aside class="left">
-            <input type="text">
+           <div class="left_site">
+            <input type="text" class="inp" placeholder="Search...">
             <h2>Company</h2>
 
-            <select name="">
+            <select class="selCategori">
                 <option value="all">ALL</option>
-                <option value="ikea">ikea</option>
+                <option value="Ikea">ikea</option>
                 <option value="Marcos">Marcos</option>
                 <option value="Caressa">Caressa</option>
                 <option value="Liddy">Liddy</option>
             </select>
+            <label for="name">Price</label>
+            <input type="range" name="name" class="moneyFilter" value="0">
+            <h4> Value : <span class="value"></span></h4>
+           </div>
         </aside>
 
         <aside class="right">

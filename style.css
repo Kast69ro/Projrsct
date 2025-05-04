@@ -111,16 +111,22 @@ section:nth-child(2) {
 
 .card {
   width: 30%;
+  /* padding: 20px 0; */
+  padding-top: 50px;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 8px;
   gap: 20px;
+  box-shadow: 5px 10px 10px 5px grey;
 }
 
 .card img {
   width: 387px;
   height: 200px;
+  border-radius: 8px;
 }
 
 .card h4 {
@@ -144,6 +150,7 @@ section:nth-child(2) {
 .btn {
   margin-left: 43%;
   margin-top: 5%;
+  margin-bottom: 5%;
   background-color: #BA5D2C;
   color: #fff;
   padding: 15px 50px;

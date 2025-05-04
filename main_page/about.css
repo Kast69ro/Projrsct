@@ -42,7 +42,7 @@ section a{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    box-shadow: 5px 10px 10px 1px grey;
+    box-shadow: 5px 10px 10px 3px grey;
     border-radius: 10px;
 }
 a img{
@@ -50,19 +50,57 @@ a img{
     height: 200px;
     border-radius: 10px;
 }
-.left{
-    width: 30%;
+.left_site{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     gap: 30px;
+    margin-top: 20px;
+    padding: 0 60px;
+}
+.inp{
+    padding: 25px 30px;
+    border-radius: 5px;
+    background-color: #F1F5F8;
+    border: none;
+}
+.left_site h2{
+    color: #222222;
+    font-size: 24px;
+    margin-left: 55px;
+}
+.left_site label{
+    font-size: 24px;
+    font-weight: 600;
+    color: #222222;
+    margin-left: 75px;
+}
+.moneyFilter{
+    width: 225px;
+
+}
+.left_site h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #222222;
+    margin-left: 65px;
+
+}
+.selCategori{
+    padding: 15px 25px;
+    border: none;
+    padding: 20px 79px;
+    border-radius: 5px;
+    background-color: #F1F5F8;
+    border: none;
+    
 }
 
 .right{
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
 }
 .container{
     padding: 20px;
@@ -70,6 +108,7 @@ a img{
     /* background-color: #235275; */
 }
 section{
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     
@@ -86,4 +125,12 @@ section{
     align-items: center;
     justify-content: space-between;
 
+}
+.right button{
+    background-color: #BA5D2C;
+    color: whitesmoke;
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
 }

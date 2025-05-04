@@ -1,6 +1,15 @@
+import { filterCategory,search,filterPrice } from "./api.js";
+
+
 let box = document.querySelector('.right')
+let selCategori = document.querySelector('.selCategori')
+let moneyFilter = document.querySelector('.moneyFilter')
+let inp = document.querySelector('.inp')
+let value = document.querySelector('.value')
+
 
 function get (data) {
+    box.innerHTML=''
     data.forEach(elem => {
         let container = document.createElement('a')
         container.classList.add('container')
@@ -30,7 +39,23 @@ function get (data) {
         divPriceBtn.append(price,btnCart)
         container.append(img,divNameCategory,divPriceBtn)
         box.append(container)
+        
     });
 }
 
+
+
+selCategori.onchange=()=>{
+    filterCategory(selCategori.value)
+}
 export {get}
+
+inp.oninput=()=>{
+    search(inp.value.trim())
+}
+
+moneyFilter.onchange=()=>{
+    value.textContent = moneyFilter.value    
+    filterPrice(+moneyFilter.value)
+    
+}
