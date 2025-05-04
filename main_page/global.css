@@ -1,0 +1,117 @@
+.shopBox {
+    max-height: 80vh; 
+    overflow: auto;   
+    padding: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 12%;
+  }
+  
+  .shopInnerBox {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+  
+
+.checkoutModal {
+    width: 15%;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #44d644;
+    position: relative;
+    top: 35%;
+    left: 40%;
+    z-index: 1000;
+    color: #fff;
+    background: transparent;
+    border-radius: 50%;
+    border: 2px solid #44d644;
+}
+
+.checkoutBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+}
+
+.shopBox {
+    width: 420px;
+    height: 600px;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 885px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #eee;
+    border-radius: 10px;
+}
+
+.shopInnerBox {
+    height: 100%;
+    display: flex;
+    flex-direction: column ;
+    gap: 40px;
+}
+
+.innerTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.shopBoxTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.shopBoxTitle button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #235275;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.shopBoxTitle h4 {
+    font-family: "Charm", cursive;
+    font-size: 34px;
+    font-weight: 700;
+    align-self: center;
+}
+
+.shopBoxProducts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cartBox {
+    display: flex;
+    gap: 20px;
+}
+
+.textBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cartBox img {
+    width: 128px;
+}
+
+.titleTextBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

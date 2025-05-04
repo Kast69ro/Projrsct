@@ -1,5 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0%
@@ -23,6 +24,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #222222;
+
 }
 
 .head {
@@ -38,15 +43,16 @@ nav {
     color: #235275;
     font-size: 25px;
 }
-section a{
+section .container{
+    width: 27%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     box-shadow: 5px 10px 10px 3px grey;
     border-radius: 10px;
 }
-a img{
-    width: 310px;
+.container img{
+    width: 100%;
     height: 200px;
     border-radius: 10px;
 }
@@ -56,7 +62,8 @@ a img{
     align-items: start;
     gap: 30px;
     margin-top: 20px;
-    padding: 0 60px;
+    padding: 0 40px;
+    margin-left: 50px;
 }
 .inp{
     padding: 25px 30px;

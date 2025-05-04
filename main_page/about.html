@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./global.css">
 </head>
 
 <body>
@@ -14,10 +15,10 @@
             <div>
                 <p><a href="../index.html">Home</a></p>
                 <p><a href="./about.html">Products</a></p>
-                <p><a href="">About</a></p>
+                <p><a href="../3rd_page/doctype.html">About</a></p>
                 <img src="../img/comfy (1).svg" alt="">
             </div>
-            <img src="../img/map_grocery-or-supermarket (1).svg" alt="">
+            <img src="../img/map_grocery-or-supermarket (1).svg" class="karzina" alt="">
         </nav>
         <div class="head">
             <h1>Home / Products</h1>
@@ -28,27 +29,49 @@
     <section>
 
         <aside class="left">
-           <div class="left_site">
-            <input type="text" class="inp" placeholder="Search...">
-            <h2>Company</h2>
+            <div class="left_site">
+                <input type="text" class="inp" placeholder="Search...">
+                <h2>Company</h2>
 
-            <select class="selCategori">
-                <option value="all">ALL</option>
-                <option value="Ikea">ikea</option>
-                <option value="Marcos">Marcos</option>
-                <option value="Caressa">Caressa</option>
-                <option value="Liddy">Liddy</option>
-            </select>
-            <label for="name">Price</label>
-            <input type="range" name="name" class="moneyFilter" value="0">
-            <h4> Value : <span class="value"></span></h4>
-           </div>
+                <select class="selCategori">
+                    <option value="all">ALL</option>
+                    <option value="Ikea">ikea</option>
+                    <option value="Marcos">Marcos</option>
+                    <option value="Caressa">Caressa</option>
+                    <option value="Liddy">Liddy</option>
+                </select>
+                <label for="name">Price</label>
+                <input type="range" name="name" class="moneyFilter" value="0">
+                <h4> Value : <span class="value"></span></h4>
+            </div>
         </aside>
 
         <aside class="right">
 
         </aside>
     </section>
+    <dialog class="shopBox">
+        <div class="shopInnerBox">
+            <div class="innerTitle">
+                <div class="shopBoxTitle">
+                    <div>
+                        <button class="shopCloseBtn">X</button>
+                    </div>
+                    <h4>Your Baog</h4>
+                </div>
+                <div class="shopBoxProducts"></div>
+            </div>
+            <div class="checkout">
+                <div>
+                    <span>Total:</span>
+                    <p class="totalPrice"></p>
+                </div>
+                <button class="checkoutBtn">checkout</button>
+
+            </div>
+        </div>
+    </dialog>
+
 
 
 </body>

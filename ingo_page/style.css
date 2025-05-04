@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0%
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+nav div {
+    width: 60%;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #222222;
+
+}
+.head {
+    background-color: #F1F5F8;
+    padding: 100px 30px;
+
+
+}
+
+.head h1 {
+    margin-left: 7%;
+    font-size: 25px;
+    color: #235275;
+    font-size: 25px;
+}
+section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+.left img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.left {
+    width: 700px;
+    
+}
+
+/* .infoRightBox img {
+    width: 100%;
+} */
+
+.right {
+    width: 548px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.name {
+    color: #222222D6;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.marka {
+    text-transform: uppercase;
+    font-family: "Charm", cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: #23527580;
+}
+
+
+
+
+.price {
+    color: #235275;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+.info {
+    color: #235275;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.btnAdd {
+    text-transform: uppercase;
+    padding: 14px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ba5d2c;
+    border: 2px solid #ba5d2c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s
+}
+
+.addBtn:hover {
+    border: 1px solid #ba5d2c;
+    background-color: #fff;
+    color: #ba5d2c;
+}
+
+

@@ -10,7 +10,18 @@ async function getData() {
   }
 }
 
-
+async function updateBox(product) {
+  
+  try {
+    await fetch(`http://localhost:3000/cart/${product.id}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(product),
+    });
+  } catch (error) {
+    console.log(error);
+  }
+}
 
 
 async function filterCategory(value) {
@@ -66,4 +77,4 @@ async function filterPrice(value) {
 
 
 
-export { getData,filterCategory,search,filterPrice };
+export { getData,filterCategory,search,filterPrice, updateBox };
